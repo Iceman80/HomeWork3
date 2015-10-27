@@ -28,18 +28,14 @@ public class Main {
         {
             x1 = (-b + Math.sqrt(d)) / (2 * a);
             System.out.println("x = " + x1);
-        }
-        if (d > 0) //Если дискриминант > 0, будет 2 корня.
+        } else if (d > 0) //Если дискриминант > 0, будет 2 корня.
         {
             x1 = (-b + Math.sqrt(d)) / (2 * a);
             x2 = (-b - Math.sqrt(d)) / (2 * a);
             System.out.print("Корень 1 = " + x1);
             System.out.println("; Корень 2 = " + x2);
-        }
-        if (d < 0) //Если дискриминант меньше нуля - нет корней.
-        {
-            System.out.println(" Нет корней ");
-        }
+        } else System.out.println(" Нет корней ");
+
 
         //Задание №4
         int k = 45;
