@@ -11,10 +11,17 @@ public class Main {
         double m1 = 11.45;
 
         if ((Math.abs(10 - m)) > (Math.abs(10 - m1))) {
-            System.out.println("2) Число " + m1 + " ближе к 10 чем число " + m);
+            System.out.println("2-1) Число " + m1 + " ближе к 10 чем число " + m);
         } else {
-            System.out.println("2) Число " + m + " ближе к 10 чем число " + m1);
+            System.out.println("2-1) Число " + m + " ближе к 10 чем число " + m1);
         }
+
+        if ((Math.floor(10 - m)) > (Math.floor(10 - m1))) {
+            System.out.println("2-2) Число " + m1 + " ближе к 10 чем число " + m);
+        } else {
+            System.out.println("2-2) Число " + m + " ближе к 10 чем число " + m1);
+        }
+
 
         //Задание №3
         double a = 1;
