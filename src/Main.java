@@ -46,7 +46,7 @@ public class Main {
             else System.out.println("Число " + k + " не содержится в интервале (25,100)");
         } else System.out.println("Число " + k + " не  принадлежит заданному отрезку (5,155)");
 
-        //Задание №5
+        //Задание № 5
         System.out.print("5) ");
         for (int count = 1, y = 1; count <= 55; count++, y += 2) {
             System.out.print(y + " ");
